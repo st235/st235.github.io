@@ -1,3 +1,10 @@
+@import 'constants';
+@import 'grid';
+
+body {
+    background-color: $theme-background;
+}
+
 .app {
-    color: blue;
+
 }
