@@ -1,0 +1,196 @@
+{
+    "en": {
+        "general": {
+            "author": {
+                "name": "Alexander Dadukin",
+                "avatarAltText": "avatar alt text",
+                "avatar": "https://images.unsplash.com/photo-1525996250065-6087ee430051?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=152612f978fae005917e8dfbd8cc6471&auto=format&fit=crop&w=933&q=80"
+            },
+            "info": {
+                "jobs": ["Yandex @ Browser Core Developer", "Wonder Lab @ Octopus"],
+                "scills": ["Android", "Kotlin", "Rx", "Java"]
+            }
+        },
+        "notes": {
+            "title": "Notes & Speaks",
+            "items": [
+                {
+                    "title": "System.currentTimeMillis vs. SystemClock.elapsedRealtime",
+                    "date": "May 12",
+                    "link": "",
+                    "tags": ["Android", "Java"]
+                },
+                {
+                    "title": "Hack Android Spans",
+                    "date": "May 8",
+                    "link": "",
+                    "tags": ["Android", "Java"]
+                },
+                {
+                    "title": "Augmented Reality from A to Z — know your Metas from your Moverios",
+                    "date": "May 12",
+                    "link": "",
+                    "tags": ["Android", "Java"]
+                },
+                {
+                    "title": "System.currentTimeMillis vs. SystemClock.elapsedRealtime",
+                    "date": "May 12",
+                    "link": "",
+                    "tags": ["Android", "Java"]
+                },
+                {
+                    "title": "System.currentTimeMillis vs. SystemClock.elapsedRealtime",
+                    "date": "May 12",
+                    "link": "",
+                    "tags": ["Android", "Java"]
+                }
+            ]
+        },
+        "apps": {
+            "title": "Apps",
+            "items": [
+                {
+                    "title": "3Mkr",
+                    "link": "",
+                    "tags": ["Android", "Kotlin"]
+                },
+                {
+                    "title": "3Mkr",
+                    "link": "",
+                    "tags": ["Android", "Kotlin"]
+                },
+                {
+                    "title": "3Mkr",
+                    "link": "",
+                    "tags": ["Android", "Kotlin"]
+                },
+                {
+                    "title": "3Mkr",
+                    "link": "",
+                    "tags": ["Android", "Kotlin"]
+                },
+                {
+                    "title": "3Mkr",
+                    "link": "",
+                    "tags": ["Android", "Kotlin"]
+                },
+                {
+                    "title": "3Mkr",
+                    "link": "",
+                    "tags": ["Android", "Kotlin"]
+                },
+                {
+                    "title": "3Mkr",
+                    "link": "",
+                    "tags": ["Android", "Kotlin"]
+                },
+                {
+                    "title": "3Mkr",
+                    "link": "",
+                    "tags": ["Android", "Kotlin"]
+                }
+            ]
+        },
+        "libs": {
+            "title": "Libraries",
+            "items": [
+                {
+                    "title": "Lib",
+                    "link": "",
+                    "tags": ["Android", "Java"]
+                },
+                {
+                    "title": "Lib",
+                    "link": "",
+                    "tags": ["Android", "Java"]
+                },
+                {
+                    "title": "Lib",
+                    "link": "",
+                    "tags": ["Android", "Java"]
+                },
+                {
+                    "title": "Lib",
+                    "link": "",
+                    "tags": ["Android", "Java"]
+                },
+                {
+                    "title": "Lib",
+                    "link": "",
+                    "tags": ["Android", "Java"]
+                },
+                {
+                    "title": "Lib",
+                    "link": "",
+                    "tags": ["Android", "Java"]
+                },
+                {
+                    "title": "Lib",
+                    "link": "",
+                    "tags": ["Android", "Java"]
+                },
+                {
+                    "title": "Lib",
+                    "link": "",
+                    "tags": ["Android", "Java"]
+                },
+                {
+                    "title": "Lib",
+                    "link": "",
+                    "tags": ["Android", "Java"]
+                }
+            ]
+        }
+    },
+    "ru": {
+        "general": {
+            "author": {
+                "name": "Александр Дадукин"
+            },
+            "info": {
+                "jobs": ["Яндекс @ Разработчик ядра браузера", "Wonder Lab @ Единорожек"]
+            }
+        },
+        "notes": {
+            "title": "Заметки и выступления",
+            "items": [
+                {
+                    "title": "System.currentTimeMillis против SystemClock.elapsedRealtime",
+                    "date": "12 Мая",
+                    "link": "",
+                    "tags": ["Android", "Java"]
+                },
+                {
+                    "title": "Грокаем Android Spans",
+                    "date": "8 Мая",
+                    "link": "",
+                    "tags": ["Android", "Java"]
+                },
+                {
+                    "title": "Augmented Reality from A to Z — know your Metas from your Moverios",
+                    "date": "12 Мая",
+                    "link": "",
+                    "tags": ["Android", "Java"]
+                },
+                {
+                    "title": "System.currentTimeMillis vs. SystemClock.elapsedRealtime",
+                    "date": "12 Мая",
+                    "link": "",
+                    "tags": ["Android", "Java"]
+                },
+                {
+                    "title": "System.currentTimeMillis vs. SystemClock.elapsedRealtime",
+                    "date": "12 Мая",
+                    "link": "",
+                    "tags": ["Android", "Java"]
+                }
+            ]
+        },
+        "apps": {
+            "title": "Приложения"
+        },
+        "libs": {
+            "title": "Библиотеки"
+        }
+    }
+}
