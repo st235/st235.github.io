@@ -3,12 +3,14 @@
         "general": {
             "author": {
                 "name": "Alexander Dadukin",
-                "avatarAltText": "avatar alt text",
-                "avatar": "https://images.unsplash.com/photo-1525996250065-6087ee430051?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=152612f978fae005917e8dfbd8cc6471&auto=format&fit=crop&w=933&q=80"
+                "avatarAltText": "Avatar",
+                "avatar": "./images/avatar.jpg"
             },
             "info": {
-                "jobs": ["Yandex @ Browser Core Developer", "Wonder Lab @ Octopus"],
-                "scills": ["Android", "Kotlin", "Rx", "Java"]
+                "jobs": ["Yandex @ Browser Core Developer", "Wonder Lab @ Octopus 🐙"],
+                "scills": ["Android", "Java", "Kotlin", "RxJava", "Dagger",
+                    "Spring", "JavaScript", "React.js", "Node.js", "C#", "Unity",
+                    "Go", "MongoDB", "MySQL", "PostgreSQL"]
             }
         },
         "notes": {
@@ -16,33 +18,15 @@
             "items": [
                 {
                     "title": "System.currentTimeMillis vs. SystemClock.elapsedRealtime",
-                    "date": "May 12",
+                    "date": "March 2",
                     "link": "",
-                    "tags": ["Android", "Java"]
+                    "tags": ["Android", "Java", "Time", "Measurements"]
                 },
                 {
-                    "title": "Hack Android Spans",
-                    "date": "May 8",
+                    "title": "Grokking Android Spans",
+                    "date": "March 30",
                     "link": "",
-                    "tags": ["Android", "Java"]
-                },
-                {
-                    "title": "Augmented Reality from A to Z — know your Metas from your Moverios",
-                    "date": "May 12",
-                    "link": "",
-                    "tags": ["Android", "Java"]
-                },
-                {
-                    "title": "System.currentTimeMillis vs. SystemClock.elapsedRealtime",
-                    "date": "May 12",
-                    "link": "",
-                    "tags": ["Android", "Java"]
-                },
-                {
-                    "title": "System.currentTimeMillis vs. SystemClock.elapsedRealtime",
-                    "date": "May 12",
-                    "link": "",
-                    "tags": ["Android", "Java"]
+                    "tags": ["Android", "Java", "Text", "Beauty", "Spannable"]
                 }
             ]
         },
@@ -50,44 +34,66 @@
             "title": "Apps",
             "items": [
                 {
-                    "title": "3Mkr",
+                    "title": "LayoutPlusViews",
                     "link": "",
-                    "tags": ["Android", "Kotlin"]
+                    "icon": "./images/icons/view_layouts.png",
+                    "tags": ["Android", "Java", "View", "Custom View",
+                    "ViewGroup", "Custom ViewGroup", "Instacats"]
                 },
                 {
                     "title": "3Mkr",
                     "link": "",
-                    "tags": ["Android", "Kotlin"]
+                    "icon": "./images/icons/3mkr.png",
+                    "tags": ["Android", "Java", "Memes", "Son of mother's friend"]
                 },
                 {
-                    "title": "3Mkr",
+                    "title": "Good Stories",
                     "link": "",
-                    "tags": ["Android", "Kotlin"]
+                    "icon": "./images/icons/good_stories.png",
+                    "tags": ["Android", "Vk", "Challenge", "Stories", "Posts",
+                    "Social", "Stickers"]
                 },
                 {
-                    "title": "3Mkr",
+                    "title": "Let me choose",
                     "link": "",
-                    "tags": ["Android", "Kotlin"]
+                    "icon": "./images/icons/let_me_choose.png",
+                    "tags": ["Android", "Choose", "Fun", "Opensource"]
                 },
                 {
-                    "title": "3Mkr",
+                    "title": "Mathium",
                     "link": "",
-                    "tags": ["Android", "Kotlin"]
+                    "icon": "./images/icons/mathium.png",
+                    "tags": ["Android", "iOS", "Math", "Game", "Unity"]
                 },
                 {
-                    "title": "3Mkr",
+                    "title": "Weather",
                     "link": "",
-                    "tags": ["Android", "Kotlin"]
+                    "icon": "./images/icons/weather.png",
+                    "tags": ["Android", "Java", "Openweather", "Weather",
+                    "Forecasts"]
                 },
                 {
-                    "title": "3Mkr",
+                    "title": "Sophia",
                     "link": "",
-                    "tags": ["Android", "Kotlin"]
+                    "icon": "./images/icons/sophia.png",
+                    "tags": ["Android", "Translator"]
                 },
                 {
-                    "title": "3Mkr",
+                    "title": "Lights out",
                     "link": "",
-                    "tags": ["Android", "Kotlin"]
+                    "icon": "./images/icons/ligthsout.png",
+                    "tags": ["Android", "Lightsout", "Logic", "Game"]
+                },
+                {
+                    "title": "Tatoo reallity",
+                    "link": "",
+                    "tags": ["Android", "iOS", "Unity", "Ar", "Tatoo", "Realtime"]
+                },
+                {
+                    "title": "Sweet madness",
+                    "link": "",
+                    "tags": ["Windows", "Linux", "macOS", "Unity", "CSharp", "Game",
+                    "Runner"]
                 }
             ]
         },
@@ -95,49 +101,35 @@
             "title": "Libraries",
             "items": [
                 {
-                    "title": "Lib",
+                    "title": "IdenticonView",
                     "link": "",
-                    "tags": ["Android", "Java"]
+                    "tags": ["Icons", "Android", "Identicon", "View", "Generation", 
+                    "Hash"]
                 },
                 {
-                    "title": "Lib",
+                    "title": "RichTextView",
                     "link": "",
-                    "tags": ["Android", "Java"]
+                    "tags": ["Android", "Java", "Text", "Fonts", "CustomFont"]
                 },
                 {
-                    "title": "Lib",
+                    "title": "Android Router",
                     "link": "",
-                    "tags": ["Android", "Java"]
+                    "tags": ["Android", "Java", "Router", "Viper", "Navigation"]
                 },
                 {
-                    "title": "Lib",
+                    "title": "Args parser",
                     "link": "",
-                    "tags": ["Android", "Java"]
+                    "tags": ["Kotlin", "Command line", "Tools", "Args", "Parsing"]
                 },
                 {
-                    "title": "Lib",
+                    "title": "Steam Market Util",
                     "link": "",
-                    "tags": ["Android", "Java"]
+                    "tags": ["Js", "Steam", "Prices"]
                 },
                 {
-                    "title": "Lib",
+                    "title": "Diet Static Middleware",
                     "link": "",
-                    "tags": ["Android", "Java"]
-                },
-                {
-                    "title": "Lib",
-                    "link": "",
-                    "tags": ["Android", "Java"]
-                },
-                {
-                    "title": "Lib",
-                    "link": "",
-                    "tags": ["Android", "Java"]
-                },
-                {
-                    "title": "Lib",
-                    "link": "",
-                    "tags": ["Android", "Java"]
+                    "tags": ["Js", "Diet", "Static", "Http", "Middleware"]
                 }
             ]
         }
@@ -145,10 +137,11 @@
     "ru": {
         "general": {
             "author": {
-                "name": "Александр Дадукин"
+                "name": "Александр Дадукин",
+                "avatarAltText": "Аватар"
             },
             "info": {
-                "jobs": ["Яндекс @ Разработчик ядра браузера", "Wonder Lab @ Единорожек"]
+                "jobs": ["Яндекс @ Разработчик ядра Браузера", "Wonder Lab @ Единорожек 🦄"]
             }
         },
         "notes": {
@@ -156,33 +149,15 @@
             "items": [
                 {
                     "title": "System.currentTimeMillis против SystemClock.elapsedRealtime",
-                    "date": "12 Мая",
+                    "date": "2 марта",
                     "link": "",
-                    "tags": ["Android", "Java"]
+                    "tags": ["Android", "Java", "Time", "Measurements"]
                 },
                 {
                     "title": "Грокаем Android Spans",
-                    "date": "8 Мая",
+                    "date": "30 марта",
                     "link": "",
-                    "tags": ["Android", "Java"]
-                },
-                {
-                    "title": "Augmented Reality from A to Z — know your Metas from your Moverios",
-                    "date": "12 Мая",
-                    "link": "",
-                    "tags": ["Android", "Java"]
-                },
-                {
-                    "title": "System.currentTimeMillis vs. SystemClock.elapsedRealtime",
-                    "date": "12 Мая",
-                    "link": "",
-                    "tags": ["Android", "Java"]
-                },
-                {
-                    "title": "System.currentTimeMillis vs. SystemClock.elapsedRealtime",
-                    "date": "12 Мая",
-                    "link": "",
-                    "tags": ["Android", "Java"]
+                    "tags": ["Android", "Java", "Text", "Beauty", "Spannable"]
                 }
             ]
         },
