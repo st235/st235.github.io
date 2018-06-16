@@ -18,14 +18,14 @@
             "items": [
                 {
                     "title": "System.currentTimeMillis vs. SystemClock.elapsedRealtime",
-                    "date": "March 2",
-                    "link": "",
+                    "date": "Jan 07",
+                    "link": "https://st235.github.io/2018/01/07/currentTimeMillis-vs-elapsedRealtime.html",
                     "tags": ["Android", "Java", "Time", "Measurements"]
                 },
                 {
                     "title": "Grokking Android Spans",
-                    "date": "March 30",
-                    "link": "",
+                    "date": "March 07",
+                    "link": "https://st235.github.io/2018/03/07/spans-magic-concept.html",
                     "tags": ["Android", "Java", "Text", "Beauty", "Spannable"]
                 }
             ]
@@ -35,52 +35,52 @@
             "items": [
                 {
                     "title": "LayoutPlusViews",
-                    "link": "",
+                    "link": "https://github.com/st235/LayoutPlusViews",
                     "icon": "./images/icons/view_layouts.png",
                     "tags": ["Android", "Java", "View", "Custom View",
                     "ViewGroup", "Custom ViewGroup", "Instacats"]
                 },
                 {
                     "title": "3Mkr",
-                    "link": "",
+                    "link": "https://play.google.com/store/apps/details?id=github.com.sasd97.a3mkrandroid",
                     "icon": "./images/icons/3mkr.png",
                     "tags": ["Android", "Java", "Memes", "Son of mother's friend"]
                 },
                 {
                     "title": "Good Stories",
-                    "link": "",
+                    "link": "https://play.google.com/store/apps/details?id=sasd97.java_blog.xyz.vk_stories",
                     "icon": "./images/icons/good_stories.png",
                     "tags": ["Android", "Vk", "Challenge", "Stories", "Posts",
                     "Social", "Stickers"]
                 },
                 {
                     "title": "Let me choose",
-                    "link": "",
+                    "link": "https://play.google.com/store/apps/details?id=sasd97.java_blog.xyz.letmechoose",
                     "icon": "./images/icons/let_me_choose.png",
                     "tags": ["Android", "Choose", "Fun", "Opensource"]
                 },
                 {
                     "title": "Mathium",
-                    "link": "",
+                    "link": "https://play.google.com/store/apps/details?id=com.github.sasd97",
                     "icon": "./images/icons/mathium.png",
                     "tags": ["Android", "iOS", "Math", "Game", "Unity"]
                 },
                 {
                     "title": "Weather",
-                    "link": "",
+                    "link": "https://github.com/st235/Yamblz.Weather",
                     "icon": "./images/icons/weather.png",
                     "tags": ["Android", "Java", "Openweather", "Weather",
                     "Forecasts"]
                 },
                 {
                     "title": "Sophia",
-                    "link": "",
+                    "link": "https://github.com/st235/Sophia",
                     "icon": "./images/icons/sophia.png",
                     "tags": ["Android", "Translator"]
                 },
                 {
                     "title": "Lights out",
-                    "link": "",
+                    "link": "https://github.com/st235/Yamblz.LightsOut",
                     "icon": "./images/icons/ligthsout.png",
                     "tags": ["Android", "Lightsout", "Logic", "Game"]
                 },
@@ -91,9 +91,19 @@
                 },
                 {
                     "title": "Sweet madness",
-                    "link": "",
+                    "link": "https://github.com/st235/SweetMadness",
                     "tags": ["Windows", "Linux", "macOS", "Unity", "CSharp", "Game",
                     "Runner"]
+                },
+                {
+                    "title": "Remote Controller",
+                    "link": "https://github.com/st235/RemoteController",
+                    "tags": ["Remote Controller", "Rest Api", "Go"]
+                },
+                {
+                    "title": "Mailer",
+                    "link": "https://github.com/st235/curriculum-vitae-mailer",
+                    "tags": ["Mailer", "Spring", "Java", "Rest Api"]
                 }
             ]
         },
@@ -101,34 +111,39 @@
             "title": "Libraries",
             "items": [
                 {
+                    "title": "Assertion",
+                    "link": "https://github.com/st235/Assertion",
+                    "tags": ["Java", "Android", "Assertion"]
+                },
+                {
                     "title": "IdenticonView",
-                    "link": "",
+                    "link": "https://github.com/st235/IdenticonView",
                     "tags": ["Icons", "Android", "Identicon", "View", "Generation", 
                     "Hash"]
                 },
                 {
                     "title": "RichTextView",
-                    "link": "",
+                    "link": "https://github.com/st235/RichTextView",
                     "tags": ["Android", "Java", "Text", "Fonts", "CustomFont"]
                 },
                 {
                     "title": "Android Router",
-                    "link": "",
+                    "link": "https://github.com/st235/AndroidRouter",
                     "tags": ["Android", "Java", "Router", "Viper", "Navigation"]
                 },
                 {
                     "title": "Args parser",
-                    "link": "",
+                    "link": "https://github.com/st235/ArgsParser",
                     "tags": ["Kotlin", "Command line", "Tools", "Args", "Parsing"]
                 },
                 {
                     "title": "Steam Market Util",
-                    "link": "",
+                    "link": "https://github.com/st235/steam-market-util",
                     "tags": ["Js", "Steam", "Prices"]
                 },
                 {
                     "title": "Diet Static Middleware",
-                    "link": "",
+                    "link": "https://github.com/UniQLab/diet-static-middleware",
                     "tags": ["Js", "Diet", "Static", "Http", "Middleware"]
                 }
             ]
@@ -149,14 +164,14 @@
             "items": [
                 {
                     "title": "System.currentTimeMillis против SystemClock.elapsedRealtime",
-                    "date": "2 марта",
-                    "link": "",
+                    "date": "07 января",
+                    "link": "https://st235.github.io/2018/01/07/currentTimeMillis-vs-elapsedRealtime.html",
                     "tags": ["Android", "Java", "Time", "Measurements"]
                 },
                 {
                     "title": "Грокаем Android Spans",
-                    "date": "30 марта",
-                    "link": "",
+                    "date": "07 марта",
+                    "link": "https://st235.github.io/2018/03/07/spans-magic-concept.html",
                     "tags": ["Android", "Java", "Text", "Beauty", "Spannable"]
                 }
             ]

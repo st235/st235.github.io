@@ -18,7 +18,7 @@ export default class NotesContainer extends Component {
     _generateNotesAndSpeaks(items) {
         return items.map((e, i) => (
         <div key={`ns_${i}`} className="col-lg-3 col-md-3">
-            <Note title={e.title} date={e.date} tags={e.tags} />
+            <Note title={e.title} date={e.date} tags={e.tags} link={e.link} />
         </div>));
     }
 }
