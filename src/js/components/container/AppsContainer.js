@@ -14,10 +14,10 @@ export default class AppsContainer extends Component {
     }
 
     _obtainSubContainer(title, items = []) {
-        return <div className="col-lg-6 col-xs-6 col-md-6">
-                 <div className="col-lg-12 col-md-12"><Header text={title} size="lg" /></div>
+        return <div className="col-lg-6 col-xs-6 col-md-6 col-s-12 col-xs-12">
+                 <div className="col-lg-12 col-md-12  col-s-12 col-xs-12"><Header text={title} size="lg" /></div>
                  <div className="row">
-                 {items.map(e => <div className="col-lg-4 col-md-4 col-xs-4"><App title={e.title} icon={e.icon} tags={e.tags} link={e.link}/></div>)}
+                 {items.map(e => <div className="col-lg-4 col-md-4 col-s-6 col-xs-12"><App title={e.title} icon={e.icon} tags={e.tags} link={e.link}/></div>)}
                  </div>
                </div>;
     }
