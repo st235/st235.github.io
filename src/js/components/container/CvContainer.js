@@ -23,7 +23,8 @@ export default class CvContainer extends Component {
         this.state = {
             apps: DataHelper.getValue('apps.items'),
             libs: DataHelper.getValue('libs.items'),
-            notes:  DataHelper.getValue('notes.items')
+            notes:  DataHelper.getValue('notes.items'),
+            globalSelection: null
         }
     }
 
@@ -31,17 +32,18 @@ export default class CvContainer extends Component {
         this.setState({
             apps: findTagInAppsItems(DataHelper.getValue('apps.items'), tag),
             libs: findTagInAppsItems(DataHelper.getValue('libs.items'), tag),
-            notes: findTagInAppsItems(DataHelper.getValue('notes.items'), tag)
+            notes: findTagInAppsItems(DataHelper.getValue('notes.items'), tag),
+            globalSelection: tag
         });
     }
 
     render() {
-        const { apps, libs, notes } = this.state;
+        const { apps, libs, notes, globalSelection } = this.state;
 
         return <div className="container cvcontainer">
-                <GeneralInfoContainer onFilter={this._onTagsFilter} />
-                <NotesContainer notes={notes} />
-                <AppsContainer apps={apps} libs={libs} />
+                <GeneralInfoContainer onFilter={this._onTagsFilter} selectedTag={globalSelection} />
+                <NotesContainer notes={notes} onFilter={this._onTagsFilter} selectedTag={globalSelection} />
+                <AppsContainer apps={apps} libs={libs} onFilter={this._onTagsFilter} selectedTag={globalSelection} />
                </div>;
     }
 }

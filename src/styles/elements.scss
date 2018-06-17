@@ -41,15 +41,17 @@
     color: $theme-text-secondary;
     font-size: 0.65rem;
     font-weight: bold;
+}
 
+.activated {
     &:hover {
         cursor: pointer;
-        text-decoration: underline;
+        text-decoration: underline !important;
     }
 }
 
 .selected {
-    color: $theme-text-primary;
+    color: $theme-text-primary !important;
 }
 
 .selectable {
@@ -79,8 +81,9 @@
 .app {
     text-align: left;
     margin: 0px 0px 20px 0px;
-    padding: 2px;
+    padding: 6px;
     line-height: 18px;
+    margin: 6px;
     @extend .selectable;
 }
 
@@ -92,19 +95,19 @@
     filter: grayscale(100%);
     object-fit: cover;
     background-color: $theme-placeholder-color;
-    margin: 0px 6px;
+    margin: 0px 0px 12px 0px;
 }
 
 
 .app > .title {
     color: $theme-text-primary;
     font-size: 0.60rem;
-    margin: 0px 6px;
+    margin: 0;
 }
 
 .app > .extra {
     color: $theme-text-secondary;
     font-size: 0.55rem;
-    margin: 2px 6px;
+    margin: 0;
 }
 

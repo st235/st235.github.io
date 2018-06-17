@@ -1,6 +1,13 @@
 {
     "en": {
         "general": {
+            "tags": ["C++", "Android", "Java", 
+                     "Kotlin", "Go Lang", "RxJava", 
+                     "Dagger", "Spring", "JavaScript", 
+                     "React.js", "Node.js", "C#", 
+                     "Unity", "MongoDB", "MySQL",
+                     "PostgreSQL", "obj-c", "swift",
+                     "iOS"],
             "author": {
                 "name": "Alexander Dadukin",
                 "avatarAltText": "Avatar",
@@ -8,9 +15,12 @@
             },
             "info": {
                 "jobs": ["Yandex @ Browser Core Developer", "Wonder Lab @ Octopus 🐙"],
-                "scills": ["C++", "Android", "Java", "Kotlin", "Go Lang", "RxJava", "Dagger",
-                    "Spring", "JavaScript", "React.js", "Node.js", "C#", "Unity",
-                    "Go", "MongoDB", "MySQL", "PostgreSQL"]
+                "scills": ["ref:general.tags:0", "ref:general.tags:1", "ref:general.tags:2",
+                           "ref:general.tags:3", "ref:general.tags:4", "ref:general.tags:5",
+                           "ref:general.tags:6", "ref:general.tags:7", "ref:general.tags:8",
+                           "ref:general.tags:9", "ref:general.tags:10", "ref:general.tags:11",
+                           "ref:general.tags:12", "ref:general.tags:13", "ref:general.tags:14",
+                           "ref:general.tags:15", "ref:general.tags:16"]
             }
         },
         "notes": {
@@ -20,13 +30,13 @@
                     "title": "System.currentTimeMillis vs. SystemClock.elapsedRealtime",
                     "date": "Jan 07",
                     "link": "https://st235.github.io/2018/01/07/currentTimeMillis-vs-elapsedRealtime.html",
-                    "tags": ["Android", "Java", "Time", "Measurements"]
+                    "tags": ["ref:general.tags:1", "ref:general.tags:2", "Time", "Measurements"]
                 },
                 {
                     "title": "Grokking Android Spans",
                     "date": "March 07",
                     "link": "https://st235.github.io/2018/03/07/spans-magic-concept.html",
-                    "tags": ["Android", "Java", "Text", "Beauty", "Spannable"]
+                    "tags": ["ref:general.tags:1", "ref:general.tags:2", "Text", "Beauty", "Spannable"]
                 }
             ]
         },
@@ -37,73 +47,73 @@
                     "title": "LayoutPlusViews",
                     "link": "https://github.com/st235/LayoutPlusViews",
                     "icon": "./images/icons/view_layouts.png",
-                    "tags": ["Android", "Java", "View", "Custom View",
+                    "tags": ["ref:general.tags:1", "ref:general.tags:2", "View", "Custom View",
                     "ViewGroup", "Custom ViewGroup", "Instacats"]
                 },
                 {
                     "title": "3Mkr",
                     "link": "https://play.google.com/store/apps/details?id=github.com.sasd97.a3mkrandroid",
                     "icon": "./images/icons/3mkr.png",
-                    "tags": ["Android", "Java", "Memes", "Son of mother's friend"]
+                    "tags": ["ref:general.tags:1", "ref:general.tags:2", "Memes", "Son of mother's friend"]
                 },
                 {
                     "title": "Good Stories",
                     "link": "https://play.google.com/store/apps/details?id=sasd97.java_blog.xyz.vk_stories",
                     "icon": "./images/icons/good_stories.png",
-                    "tags": ["Android", "Vk", "Challenge", "Stories", "Posts",
+                    "tags": ["ref:general.tags:1", "ref:general.tags:2", "Vk", "Challenge", "Stories", "Posts",
                     "Social", "Stickers"]
                 },
                 {
                     "title": "Let me choose",
                     "link": "https://play.google.com/store/apps/details?id=sasd97.java_blog.xyz.letmechoose",
                     "icon": "./images/icons/let_me_choose.png",
-                    "tags": ["Android", "Choose", "Fun", "Opensource"]
+                    "tags": ["ref:general.tags:1", "ref:general.tags:2", "Choose", "Fun", "Opensource"]
                 },
                 {
                     "title": "Mathium",
                     "link": "https://play.google.com/store/apps/details?id=com.github.sasd97",
                     "icon": "./images/icons/mathium.png",
-                    "tags": ["Android", "iOS", "Math", "Game", "Unity"]
+                    "tags": ["ref:general.tags:1", "ref:general.tags:16", "Math", "Game", "ref:general.tags:12"]
                 },
                 {
                     "title": "Weather",
                     "link": "https://github.com/st235/Yamblz.Weather",
                     "icon": "./images/icons/weather.png",
-                    "tags": ["Android", "Java", "Openweather", "Weather",
+                    "tags": ["ref:general.tags:1", "ref:general.tags:2", "Openweather", "Weather",
                     "Forecasts"]
                 },
                 {
                     "title": "Sophia",
                     "link": "https://github.com/st235/Sophia",
                     "icon": "./images/icons/sophia.png",
-                    "tags": ["Android", "Translator"]
+                    "tags": ["ref:general.tags:1", "Translator"]
                 },
                 {
                     "title": "Lights out",
                     "link": "https://github.com/st235/Yamblz.LightsOut",
                     "icon": "./images/icons/ligthsout.png",
-                    "tags": ["Android", "Lightsout", "Logic", "Game"]
+                    "tags": ["ref:general.tags:1", "Lightsout", "Logic", "Game"]
                 },
                 {
                     "title": "Tatoo reallity",
                     "link": "",
-                    "tags": ["Android", "iOS", "Unity", "Ar", "Tatoo", "Realtime"]
+                    "tags": ["ref:general.tags:1", "iOS", "ref:general.tags:12", "Ar", "Tatoo", "Realtime"]
                 },
                 {
                     "title": "Sweet madness",
                     "link": "https://github.com/st235/SweetMadness",
-                    "tags": ["Windows", "Linux", "macOS", "Unity", "CSharp", "Game",
+                    "tags": ["Windows", "Linux", "macOS", "ref:general.tags:12", "CSharp", "Game",
                     "Runner"]
                 },
                 {
                     "title": "Remote Controller",
                     "link": "https://github.com/st235/RemoteController",
-                    "tags": ["Remote Controller", "Rest Api", "Go"]
+                    "tags": ["Remote Controller", "Rest Api", "ref:general.tags:4"]
                 },
                 {
                     "title": "Mailer",
                     "link": "https://github.com/st235/curriculum-vitae-mailer",
-                    "tags": ["Mailer", "Spring", "Java", "Rest Api"]
+                    "tags": ["Mailer", "Spring", "ref:general.tags:2", "Rest Api"]
                 }
             ]
         },
@@ -113,28 +123,28 @@
                 {
                     "title": "Assertion",
                     "link": "https://github.com/st235/Assertion",
-                    "tags": ["Java", "Android", "Assertion"]
+                    "tags": ["ref:general.tags:2", "ref:general.tags:1", "Assertion"]
                 },
                 {
                     "title": "IdenticonView",
                     "link": "https://github.com/st235/IdenticonView",
-                    "tags": ["Icons", "Android", "Identicon", "View", "Generation", 
+                    "tags": ["Icons", "ref:general.tags:1", "Identicon", "View", "Generation", 
                     "Hash"]
                 },
                 {
                     "title": "RichTextView",
                     "link": "https://github.com/st235/RichTextView",
-                    "tags": ["Android", "Java", "Text", "Fonts", "CustomFont"]
+                    "tags": ["ref:general.tags:1", "ref:general.tags:2", "Text", "Fonts", "CustomFont"]
                 },
                 {
                     "title": "Android Router",
                     "link": "https://github.com/st235/AndroidRouter",
-                    "tags": ["Android", "Java", "Router", "Viper", "Navigation"]
+                    "tags": ["ref:general.tags:1", "ref:general.tags:2", "Router", "Viper", "Navigation"]
                 },
                 {
                     "title": "Args parser",
                     "link": "https://github.com/st235/ArgsParser",
-                    "tags": ["Kotlin", "Command line", "Tools", "Args", "Parsing"]
+                    "tags": ["ref:general.tags:3", "Command line", "Tools", "Args", "Parsing"]
                 },
                 {
                     "title": "Steam Market Util",
@@ -166,13 +176,13 @@
                     "title": "System.currentTimeMillis против SystemClock.elapsedRealtime",
                     "date": "07 января",
                     "link": "https://st235.github.io/2018/01/07/currentTimeMillis-vs-elapsedRealtime.html",
-                    "tags": ["Android", "Java", "Time", "Measurements"]
+                    "tags": ["ref:general.tags:1", "ref:general.tags:2", "Time", "Measurements"]
                 },
                 {
                     "title": "Грокаем Android Spans",
                     "date": "07 марта",
                     "link": "https://st235.github.io/2018/03/07/spans-magic-concept.html",
-                    "tags": ["Android", "Java", "Text", "Beauty", "Spannable"]
+                    "tags": ["ref:general.tags:1", "ref:general.tags:2", "Text", "Beauty", "Spannable"]
                 }
             ]
         },

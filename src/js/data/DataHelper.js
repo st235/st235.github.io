@@ -1,7 +1,11 @@
 import Data from './data.json';
+import TextUtils from '../utils/TextUtils';
 
 const DEFAULT_LOCALE = 'en';
 const DILIMETER = '.';
+
+const REF_HOLDER_LINK = 1;
+const REF_DEST_LINK = 2;
 
 export default class DataHelper {
     static getValue(path, locale = this._recognizeLocale()) {
@@ -15,6 +19,19 @@ export default class DataHelper {
         }
 
         return value;
+    }
+
+    static resolveRefences(value, locale = this._recognizeLocale()) {
+        const scheme = value.split(':');
+        return this.getValue(scheme[REF_HOLDER_LINK], locale)[scheme[REF_DEST_LINK]];
+    }
+
+    static isReference(obj) {
+        if (!TextUtils.isString(obj)) {
+            return false;
+        }
+
+        return obj.includes('ref:');
     }
 
     static _recognizeLocale() {

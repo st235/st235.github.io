@@ -1,24 +1,24 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
+import TagsLayout from '../container/TagsLayout';
 import Avatar from '../presentational/Avatar';
 import Header from '../presentational/Header';
 import ItemsList from '../presentational/ItemsList';
-import TagsLayout from '../presentational/TagsLayout';
 
 import DataHelper from '../../data/DataHelper';
 
 export default class GeneralInfoContainer extends Component {
     render() {
-        const { onFilter } = this.props;
+        const { onFilter, selectedTag } = this.props;
 
         return <section className="row">
-                   {this._obtainInfoSection(onFilter)}
+                   {this._obtainInfoSection(onFilter, selectedTag)}
                    {this._obtainAvatarSection()}
                </section>;
     }
 
-    _obtainInfoSection(filterCallack) {
+    _obtainInfoSection(filterCallack, defaultSelectedTag) {
         return <div className="col-lg-8 col-md-8 col-s-12 col-xs-12">
                 <Header text={DataHelper.getValue('general.author.name')} size="lg" />
                 <div className="row">
@@ -26,7 +26,11 @@ export default class GeneralInfoContainer extends Component {
                    <ItemsList jobs={DataHelper.getValue('general.info.jobs')} />
                  </div>
                  <div className="col-lg col-offset-lg-1 col-md col-offset-md-1 col-s-12 col-xs-12">
-                   <TagsLayout tags={DataHelper.getValue('general.info.scills')} onTagClick={filterCallack} />
+                   <TagsLayout 
+                    classFamily="tag"
+                    tags={DataHelper.getValue('general.info.scills')}
+                    defaultSelected={defaultSelectedTag}
+                    onTagClick={filterCallack} />
                  </div>
                 </div>
                </div>
@@ -42,5 +46,6 @@ export default class GeneralInfoContainer extends Component {
 }
 
 GeneralInfoContainer.propTypes = {
-    onFilter: PropTypes.func
+    onFilter: PropTypes.func,
+    selectedTag: PropTypes.number
 }

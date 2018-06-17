@@ -16,7 +16,11 @@ export default class Notes extends Component {
     _createNote(title, date, tags) {
         return <div className="note">
                 <p className="title">{title}</p>
-                <p className="extra">{`${date} • ${tags.join(', ')}`}</p>
+                <p className="extra">
+                    <span>{date}</span>
+                    <span> • </span>
+                    {tags}
+                </p>
                </div>;
     }
 }
@@ -24,6 +28,6 @@ export default class Notes extends Component {
 Notes.propTypes = {
     title: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
-    tags: PropTypes.array.isRequired,
+    tags: PropTypes.element.isRequired,
     link: PropTypes.string
 }
