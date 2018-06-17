@@ -47,6 +47,10 @@
     }
 }
 
+.selected {
+    color: $theme-text-primary;
+}
+
 .selectable {
     &:hover {
         border-radius: 4px;

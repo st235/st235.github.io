@@ -7,6 +7,7 @@ import AppsContainer from './AppsContainer';
 import DataHelper from '../../data/DataHelper';
 
 const findInArray = (a = [], t) => {
+    if (!t) return a;
     return a.find(i => i.toLowerCase() === t.toLowerCase());
 }
 
@@ -21,24 +22,25 @@ export default class CvContainer extends Component {
 
         this.state = {
             apps: DataHelper.getValue('apps.items'),
-            libs: DataHelper.getValue('libs.items')
+            libs: DataHelper.getValue('libs.items'),
+            notes:  DataHelper.getValue('notes.items')
         }
     }
 
     _onTagsFilter(tag) {
-        console.log(tag);
         this.setState({
             apps: findTagInAppsItems(DataHelper.getValue('apps.items'), tag),
-            libs: findTagInAppsItems(DataHelper.getValue('libs.items'), tag)
+            libs: findTagInAppsItems(DataHelper.getValue('libs.items'), tag),
+            notes: findTagInAppsItems(DataHelper.getValue('notes.items'), tag)
         });
     }
 
     render() {
-        const { apps, libs } = this.state;
+        const { apps, libs, notes } = this.state;
 
         return <div className="container cvcontainer">
                 <GeneralInfoContainer onFilter={this._onTagsFilter} />
-                <NotesContainer />
+                <NotesContainer notes={notes} />
                 <AppsContainer apps={apps} libs={libs} />
                </div>;
     }
