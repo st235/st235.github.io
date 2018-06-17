@@ -19,13 +19,13 @@ export default class GeneralInfoContainer extends Component {
     }
 
     _obtainInfoSection(filterCallack, defaultSelectedTag) {
-        return <div className="col-lg-8 col-md-8 col-s-12 col-xs-12">
+        return <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                 <Header text={DataHelper.getValue('general.author.name')} size="lg" />
                 <div className="row">
                  <div className="col-lg-4 col-md-8 col-sm-12 col-xs-12">
                    <ItemsList jobs={DataHelper.getValue('general.info.jobs')} />
                  </div>
-                 <div className="col-lg col-offset-lg-1 col-md col-offset-md-1 col-s-12 col-xs-12">
+                 <div className="col-lg col-offset-lg-1 col-md col-offset-md-1 col-sm-12 col-xs-12">
                    <TagsLayout 
                     classFamily="tag"
                     tags={DataHelper.getValue('general.info.scills')}
@@ -37,7 +37,7 @@ export default class GeneralInfoContainer extends Component {
     }
 
     _obtainAvatarSection() {
-        return <div className="col-lg col-md col-sm col-xs end-lg end-md center-sm center-xs">
+        return <div className="col-lg col-md col-sm col-xs end-lg end-md start-sm center-xs">
                 <Avatar 
                     url={DataHelper.getValue('general.author.avatar')}
                     altText={DataHelper.getValue('general.author.avatarAltText')} />
