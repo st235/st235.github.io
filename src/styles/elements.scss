@@ -36,10 +36,15 @@
     font-weight: bold;
 }
 
-.tags {
+.tag {
     color: $theme-text-secondary;
     font-size: 0.65rem;
     font-weight: bold;
+
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
 }
 
 .selectable {

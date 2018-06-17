@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 import Avatar from '../presentational/Avatar';
 import Header from '../presentational/Header';
@@ -9,13 +10,15 @@ import DataHelper from '../../data/DataHelper';
 
 export default class GeneralInfoContainer extends Component {
     render() {
+        const { onFilter } = this.props;
+
         return <section className="row">
-                   {this._obtainInfoSection()}
+                   {this._obtainInfoSection(onFilter)}
                    {this._obtainAvatarSection()}
                </section>;
     }
 
-    _obtainInfoSection() {
+    _obtainInfoSection(filterCallack) {
         return <div className="col-lg-8 col-md-8 col-s-12 col-xs-12">
                 <Header text={DataHelper.getValue('general.author.name')} size="lg" />
                 <div className="row">
@@ -23,7 +26,7 @@ export default class GeneralInfoContainer extends Component {
                    <ItemsList jobs={DataHelper.getValue('general.info.jobs')} />
                  </div>
                  <div className="col-lg col-offset-lg-1 col-md col-offset-md-1 col-s-12 col-xs-12">
-                   <TagsLayout tags={DataHelper.getValue('general.info.scills')} />
+                   <TagsLayout tags={DataHelper.getValue('general.info.scills')} onTagClick={filterCallack} />
                  </div>
                 </div>
                </div>
@@ -36,4 +39,8 @@ export default class GeneralInfoContainer extends Component {
                     altText={DataHelper.getValue('general.author.avatarAltText')} />
                </div>
     }
+}
+
+GeneralInfoContainer.propTypes = {
+    onFilter: PropTypes.func
 }

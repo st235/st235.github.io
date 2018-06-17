@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 import Header from '../presentational/Header';
 import App from '../presentational/App';
@@ -7,9 +8,11 @@ import DataHelper from '../../data/DataHelper';
 
 export default class AppsContainer extends Component {
     render() {
+        const { apps, libs } = this.props;
+
         return <div className="row">
-                {this._obtainSubContainer(DataHelper.getValue('apps.title'), DataHelper.getValue('apps.items'))}
-                {this._obtainSubContainer(DataHelper.getValue('libs.title'), DataHelper.getValue('libs.items'))}
+                {this._obtainSubContainer(DataHelper.getValue('apps.title'), apps)}
+                {this._obtainSubContainer(DataHelper.getValue('libs.title'), libs)}
                </div>;
     }
 
@@ -21,4 +24,9 @@ export default class AppsContainer extends Component {
                  </div>
                </div>;
     }
+}
+
+AppsContainer.propTypes = {
+    apps: PropTypes.array.isRequired,
+    libs: PropTypes.array.isRequired
 }
