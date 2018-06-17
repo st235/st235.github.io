@@ -6,8 +6,8 @@
                      "Dagger", "Spring", "JavaScript", 
                      "React.js", "Node.js", "C#", 
                      "Unity", "MongoDB", "MySQL",
-                     "PostgreSQL", "obj-c", "swift",
-                     "iOS"],
+                     "PostgreSQL", "Obj-c", "Swift",
+                     "iOS", "RestApi", "CSharp"],
             "author": {
                 "name": "Alexander Dadukin",
                 "avatarAltText": "Avatar",
@@ -20,7 +20,7 @@
                            "ref:general.tags:6", "ref:general.tags:7", "ref:general.tags:8",
                            "ref:general.tags:9", "ref:general.tags:10", "ref:general.tags:11",
                            "ref:general.tags:12", "ref:general.tags:13", "ref:general.tags:14",
-                           "ref:general.tags:15", "ref:general.tags:16"]
+                           "ref:general.tags:15", "ref:general.tags:16", "ref:general.tags:20"]
             }
         },
         "notes": {
@@ -73,7 +73,7 @@
                     "title": "Mathium",
                     "link": "https://play.google.com/store/apps/details?id=com.github.sasd97",
                     "icon": "./images/icons/mathium.png",
-                    "tags": ["ref:general.tags:1", "ref:general.tags:16", "Math", "Game", "ref:general.tags:12"]
+                    "tags": ["ref:general.tags:1", "ref:general.tags:16", "Math", "Game", "ref:general.tags:12", "ref:general.tags:20"]
                 },
                 {
                     "title": "Weather",
@@ -97,23 +97,23 @@
                 {
                     "title": "Tatoo reallity",
                     "link": "",
-                    "tags": ["ref:general.tags:1", "iOS", "ref:general.tags:12", "Ar", "Tatoo", "Realtime"]
+                    "tags": ["ref:general.tags:1", "iOS", "ref:general.tags:12", "ref:general.tags:20", "Ar", "Tatoo", "Realtime"]
                 },
                 {
                     "title": "Sweet madness",
                     "link": "https://github.com/st235/SweetMadness",
-                    "tags": ["Windows", "Linux", "macOS", "ref:general.tags:12", "CSharp", "Game",
+                    "tags": ["Windows", "Linux", "macOS", "ref:general.tags:12", "ref:general.tags:20", "ref:general.tags:20", "Game",
                     "Runner"]
                 },
                 {
                     "title": "Remote Controller",
                     "link": "https://github.com/st235/RemoteController",
-                    "tags": ["Remote Controller", "Rest Api", "ref:general.tags:4"]
+                    "tags": ["Remote Controller", "ref:general.tags:19", "ref:general.tags:4"]
                 },
                 {
                     "title": "Mailer",
                     "link": "https://github.com/st235/curriculum-vitae-mailer",
-                    "tags": ["Mailer", "Spring", "ref:general.tags:2", "Rest Api"]
+                    "tags": ["Mailer", "Spring", "ref:general.tags:2", "ref:general.tags:19"]
                 }
             ]
         },
@@ -149,12 +149,12 @@
                 {
                     "title": "Steam Market Util",
                     "link": "https://github.com/st235/steam-market-util",
-                    "tags": ["Js", "Steam", "Prices"]
+                    "tags": ["ref:general.tags:8", "Steam", "Prices"]
                 },
                 {
                     "title": "Diet Static Middleware",
                     "link": "https://github.com/UniQLab/diet-static-middleware",
-                    "tags": ["Js", "Diet", "Static", "Http", "Middleware"]
+                    "tags": ["ref:general.tags:8", "Diet", "Static", "Http", "Middleware"]
                 }
             ]
         }
