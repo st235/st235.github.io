@@ -7,7 +7,7 @@
                      "React.js", "Node.js", "C#", 
                      "Unity", "MongoDB", "MySQL",
                      "PostgreSQL", "Obj-c", "Swift",
-                     "iOS", "RestApi", "CSharp"],
+                     "iOS", "RestApi", "CSharp", "Koin"],
             "author": {
                 "name": "Alexander Dadukin",
                 "avatarAltText": "Avatar",
@@ -16,7 +16,7 @@
             "info": {
                 "jobs": ["Yandex @ Browser Core Developer", "Wonder Lab @ Octopus 🐙"],
                 "scills": ["ref:general.tags:0", "ref:general.tags:1", "ref:general.tags:2",
-                           "ref:general.tags:3", "ref:general.tags:4", "ref:general.tags:5",
+                           "ref:general.tags:3", "ref:general.tags:21", "ref:general.tags:4", "ref:general.tags:5",
                            "ref:general.tags:6", "ref:general.tags:7", "ref:general.tags:8",
                            "ref:general.tags:9", "ref:general.tags:10", "ref:general.tags:11",
                            "ref:general.tags:12", "ref:general.tags:13", "ref:general.tags:14",
@@ -37,12 +37,32 @@
                     "date": "March 07",
                     "link": "https://st235.github.io/2018/03/07/spans-magic-concept.html",
                     "tags": ["ref:general.tags:1", "ref:general.tags:2", "Text", "Beauty", "Spannable"]
+                },
+                {
+                    "title": "Camera 2 API Stikes Back",
+                    "date": "October 21",
+                    "link": "https://www.youtube.com/watch?v=8niwN6Vd58Y",
+                    "tags": ["ref:general.tags:1", "Camera API", "Problem", "Yandex.Alice", "Voice Assistant", "Image Search"]
                 }
             ]
         },
         "apps": {
             "title": "Apps",
             "items": [
+                {
+                    "title": "Mathium",
+                    "link": "https://play.google.com/store/apps/details?id=github.com.st235.mathium",
+                    "icon": "./images/icons/mathium.png",
+                    "tags": ["ref:general.tags:1", "ref:general.tags:3", "Math", "New",
+                    "Calculus", "Designed For Families", "Rates", "Top"]
+                },
+                {
+                    "title": "Easy Currency",
+                    "link": "https://github.com/st235/EasyCurrency",
+                    "icon": "./images/icons/easy_currency.png",
+                    "tags": ["ref:general.tags:1", "ref:general.tags:3", "Currencies", "Converter",
+                    "Money"]
+                },
                 {
                     "title": "LayoutPlusViews",
                     "link": "https://github.com/st235/LayoutPlusViews",
@@ -52,7 +72,7 @@
                 },
                 {
                     "title": "3Mkr",
-                    "link": "https://play.google.com/store/apps/details?id=github.com.sasd97.a3mkrandroid",
+                    "link": "",
                     "icon": "./images/icons/3mkr.png",
                     "tags": ["ref:general.tags:1", "ref:general.tags:2", "Memes", "Son of mother's friend"]
                 },
@@ -70,9 +90,9 @@
                     "tags": ["ref:general.tags:1", "ref:general.tags:2", "Choose", "Fun", "Opensource"]
                 },
                 {
-                    "title": "Mathium",
+                    "title": "Mathium (Old)",
                     "link": "https://play.google.com/store/apps/details?id=com.github.sasd97",
-                    "icon": "./images/icons/mathium.png",
+                    "icon": "./images/icons/mathium_old.png",
                     "tags": ["ref:general.tags:1", "ref:general.tags:16", "Math", "Game", "ref:general.tags:12", "ref:general.tags:20"]
                 },
                 {
@@ -120,6 +140,11 @@
         "libs": {
             "title": "Libraries",
             "items": [
+                {
+                    "title": "Aura",
+                    "link": "https://github.com/st235/aura",
+                    "tags": ["ref:general.tags:9", "Interview Preparation Kit", "Sorting algos"]
+                },
                 {
                     "title": "Assertion",
                     "link": "https://github.com/st235/Assertion",
@@ -183,6 +208,12 @@
                     "date": "07 марта",
                     "link": "https://st235.github.io/2018/03/07/spans-magic-concept.html",
                     "tags": ["ref:general.tags:1", "ref:general.tags:2", "Text", "Beauty", "Spannable"]
+                },
+                {
+                    "title": "Camera 2 API Stikes Back",
+                    "date": "21 октября",
+                    "link": "https://www.youtube.com/watch?v=8niwN6Vd58Y",
+                    "tags": ["ref:general.tags:1", "Camera API", "Проблемы", "Алиса", "Голосовой ассистент", "Поиск по картинке"]
                 }
             ]
         },

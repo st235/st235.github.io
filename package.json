@@ -1,6 +1,6 @@
 {
   "name": "curriculum_vitae",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "impoved curriculum vitae. new version.",
   "main": "index.js",
   "scripts": {
