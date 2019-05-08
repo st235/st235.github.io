@@ -14,7 +14,7 @@
                 "avatar": "./images/avatar.jpg"
             },
             "info": {
-                "jobs": ["Yandex @ Browser Core Developer", "Wonder Lab @ Octopus 🐙"],
+                "jobs": ["Revolut @ Software Engineer", "wonderlab. @ Octopus 🐙"],
                 "scills": ["ref:general.tags:0", "ref:general.tags:1", "ref:general.tags:2",
                            "ref:general.tags:3", "ref:general.tags:21", "ref:general.tags:4", "ref:general.tags:5",
                            "ref:general.tags:6", "ref:general.tags:7", "ref:general.tags:8",
@@ -141,6 +141,11 @@
             "title": "Libraries",
             "items": [
                 {
+                    "title": "ExpandableBottomBar",
+                    "link": "https://github.com/st235/ExpandableBottomBar",
+                    "tags": ["ref:general.tags:1", "ref:general.tags:3", "Navigation Pattern", "Custom View"]
+                },
+                {
                     "title": "Aura",
                     "link": "https://github.com/st235/aura",
                     "tags": ["ref:general.tags:9", "Interview Preparation Kit", "Sorting algos"]
@@ -191,7 +196,7 @@
                 "avatarAltText": "Аватар"
             },
             "info": {
-                "jobs": ["Яндекс @ Разработчик ядра Браузера", "Wonder Lab @ Единорожек 🦄"]
+                "jobs": ["Revolut @ Software Engineer", "wonderlab. @ Единорожек 🦄"]
             }
         },
         "notes": {
