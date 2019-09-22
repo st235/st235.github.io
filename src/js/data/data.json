@@ -11,7 +11,9 @@
             "author": {
                 "name": "Alexander Dadukin",
                 "avatarAltText": "Avatar",
-                "avatar": "./images/avatar.jpg"
+                "avatar": "./images/avatar.jpg",
+                "hi": "Say 'hi' to me 👋",
+                "himail": "mailto:hi@st235.xyz"
             },
             "info": {
                 "jobs": ["Revolut @ Software Engineer", "wonderlab. @ Octopus 🐙"],
@@ -43,12 +45,24 @@
                     "date": "October 21",
                     "link": "https://www.youtube.com/watch?v=8niwN6Vd58Y",
                     "tags": ["ref:general.tags:1", "Camera API", "Problem", "Yandex.Alice", "Voice Assistant", "Image Search"]
+                },
+                {
+                    "title": "Custom Views at Revolut",
+                    "date": "July 9",
+                    "link": "https://www.youtube.com/watch?v=8niwN6Vd58Y",
+                    "tags": ["ref:general.tags:1", "ref:general.tags:3", "Views", "Revolut"]
                 }
             ]
         },
         "apps": {
             "title": "Apps",
             "items": [
+                {
+                    "title": "BitObserver",
+                    "link": "https://github.com/st235/BitObserver",
+                    "icon": "./images/icons/bit_observer.png",
+                    "tags": ["ref:general.tags:1", "ref:general.tags:3", "Crypto", "Bitcoin", "Charts"]
+                },
                 {
                     "title": "Mathium",
                     "link": "https://play.google.com/store/apps/details?id=github.com.st235.mathium",
@@ -78,19 +92,19 @@
                 },
                 {
                     "title": "Good Stories",
-                    "link": "https://play.google.com/store/apps/details?id=sasd97.java_blog.xyz.vk_stories",
+                    "link": "https://github.com/st235/vk-stories",
                     "icon": "./images/icons/good_stories.png",
                     "tags": ["ref:general.tags:1", "ref:general.tags:2", "Vk", "Challenge", "Stories", "Posts",
                     "Social", "Stickers"]
                 },
                 {
                     "title": "Let me choose",
-                    "link": "https://play.google.com/store/apps/details?id=sasd97.java_blog.xyz.letmechoose",
+                    "link": "https://github.com/st235/LetMeChoose",
                     "icon": "./images/icons/let_me_choose.png",
                     "tags": ["ref:general.tags:1", "ref:general.tags:2", "Choose", "Fun", "Opensource"]
                 },
                 {
-                    "title": "Mathium (Old)",
+                    "title": "Basic Math Trainer",
                     "link": "https://play.google.com/store/apps/details?id=com.github.sasd97",
                     "icon": "./images/icons/mathium_old.png",
                     "tags": ["ref:general.tags:1", "ref:general.tags:16", "Math", "Game", "ref:general.tags:12", "ref:general.tags:20"]
@@ -140,6 +154,21 @@
         "libs": {
             "title": "Libraries",
             "items": [
+                {
+                    "title": "Chartio",
+                    "link": "https://github.com/st235/Chartio",
+                    "tags": ["ref:general.tags:1", "ref:general.tags:3", "Charts", "Linear Chart"]
+                },
+                {
+                    "title": "SwipeToActionLayout",
+                    "link": "https://github.com/st235/SwipeToActionLayout",
+                    "tags": ["ref:general.tags:1", "ref:general.tags:3", "Menu", "Swipes"]
+                },
+                {
+                    "title": "SamuraiView",
+                    "link": "https://github.com/st235/SamuraiView",
+                    "tags": ["ref:general.tags:1", "ref:general.tags:3", "Showcase", "Highlight"]
+                },
                 {
                     "title": "ExpandableBottomBar",
                     "link": "https://github.com/st235/ExpandableBottomBar",
@@ -193,7 +222,8 @@
         "general": {
             "author": {
                 "name": "Александр Дадукин",
-                "avatarAltText": "Аватар"
+                "avatarAltText": "Аватар",
+                "hi": "Поздороваться со мной 👋"
             },
             "info": {
                 "jobs": ["Revolut @ Software Engineer", "wonderlab. @ Единорожек 🦄"]
@@ -219,6 +249,12 @@
                     "date": "21 октября",
                     "link": "https://www.youtube.com/watch?v=8niwN6Vd58Y",
                     "tags": ["ref:general.tags:1", "Camera API", "Проблемы", "Алиса", "Голосовой ассистент", "Поиск по картинке"]
+                },
+                {
+                    "title": "Custom Views в Revolut",
+                    "date": "9 июля",
+                    "link": "https://www.youtube.com/watch?v=8niwN6Vd58Y",
+                    "tags": ["ref:general.tags:1", "ref:general.tags:3", "Views", "Revolut"]
                 }
             ]
         },

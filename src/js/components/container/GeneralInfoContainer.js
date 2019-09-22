@@ -21,6 +21,7 @@ export default class GeneralInfoContainer extends Component {
     _obtainInfoSection(filterCallack, defaultSelectedTag) {
         return <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                 <Header text={DataHelper.getValue('general.author.name')} size="lg" />
+                <a className="hi" href={DataHelper.getValue('general.author.himail')}>{DataHelper.getValue('general.author.hi')}</a>
                 <div className="row">
                  <div className="col-lg-4 col-md-8 col-sm-12 col-xs-12">
                    <ItemsList jobs={DataHelper.getValue('general.info.jobs')} />
