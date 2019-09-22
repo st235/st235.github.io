@@ -16,7 +16,7 @@
                 "himail": "mailto:hi@st235.xyz"
             },
             "info": {
-                "jobs": ["Revolut @ Software Engineer", "wonderlab. @ Octopus 🐙"],
+                "jobs": ["Software Engineer @ Revolut", "Octopus 🐙 @ wonderlab."],
                 "scills": ["ref:general.tags:0", "ref:general.tags:1", "ref:general.tags:2",
                            "ref:general.tags:3", "ref:general.tags:21", "ref:general.tags:4", "ref:general.tags:5",
                            "ref:general.tags:6", "ref:general.tags:7", "ref:general.tags:8",
@@ -226,7 +226,7 @@
                 "hi": "Поздороваться со мной 👋"
             },
             "info": {
-                "jobs": ["Revolut @ Software Engineer", "wonderlab. @ Единорожек 🦄"]
+                "jobs": ["Software Engineer @ Revolut", "Единорожек 🦄 @ wonderlab."]
             }
         },
         "notes": {
